@@ -1,0 +1,82 @@
+@import url(https://fonts.bunny.net/css?family=bitter:400,400i,900,900i);
+
+:root {
+  --r-link-color: #56bc58;
+}
+
+body.reveal-viewport {
+  background: black;
+}
+
+.reveal {
+  background-color: black;
+  font-family: 'Bitter', serif !important;
+  font-size: 1.7em !important;
+  width: 80%;
+}
+
+.reveal .slides section li.fragment.visible.current-fragment,
+.reveal .slides section .lesson-title.fragment.visible.current-fragment {
+  opacity: 1;
+  visibility: inherit;
+}
+
+.reveal .slides section li.fragment.visible,
+.reveal .slides section .lesson-title.fragment.visible {
+  opacity: .5;
+  visibility: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #56bc58 !important;
+  font-family: 'GlacialIndifferenceBold' !important;
+  text-transform: uppercase !important;
+}
+
+img {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: auto !important;
+}
+
+.small-img {
+  width: auto !important;
+  height: 100px !important;
+}
+
+.med-img {
+  width: auto !important;
+  height: 200px !important;
+}
+
+.md-lg-img {
+  width: auto !important;
+  height: 250px !important;
+}
+
+.lg-img {
+  width: auto !important;
+  height: 500px !important;
+}
+
+.xl-img {
+  width: auto !important;
+  height: 600px !important;
+}
+
+
+pre code {
+  font-size: 2em !important;
+  line-height: 2em !important;
+}
+
+.dark-bg {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
